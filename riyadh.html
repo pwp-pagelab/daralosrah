@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="فرع دار الأسرة في الرياض لحفلات الشركات والفعاليات المؤسسية.">
+<title>دار الأسرة | فرع الرياض</title>
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="index.html" aria-label="دار الأسرة">
+    <img src="assets/dar-alosrah-logo.png" alt="دار الأسرة">
+  </a>
+
+  <button class="menu-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false">
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="nav">
+    <a href="index.html">الرئيسية</a>
+    <a href="riyadh.html">الرياض</a>
+    <a href="khobar.html">الخبر</a>
+    <a href="#lead-form">تواصل</a>
+  </nav>
+</header>
+
+<main>
+  <section class="branch-page-hero riyadh-page">
+    <img class="branch-page-image" src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1800&auto=format&fit=crop" alt="قاعة فعاليات في الرياض">
+    <div class="branch-page-content">
+      <p class="kicker">فرع الرياض</p>
+      <h1>حضور تنفيذي في قلب العاصمة</h1>
+      <p class="description">فرع الرياض مصمم للفعاليات التي تحتاج استقبالًا رسميًا، ضيافة متقنة، وتنظيمًا يعكس قيمة شركتك منذ لحظة وصول الضيوف.</p>
+      <div class="hero-actions">
+        <a href="#lead-form" class="btn-primary">تواصل مع فرع الرياض</a>
+        <a href="profiles/profile-riyadh.html" class="btn-ghost" download="dar-alosrah-riyadh-profile.html">تحميل البروفايل</a>
+        <a href="index.html#branches" class="btn-ghost">العودة للفروع</a>
+      </div>
+    </div>
+    <div class="branch-stats" aria-label="مزايا فرع الرياض">
+      <div><strong>VIP</strong><span>استقبال تنفيذي</span></div>
+      <div><strong>360</strong><span>تجربة ضيافة</span></div>
+      <div><strong>24h</strong><span>متابعة الطلب</span></div>
+    </div>
+  </section>
+
+  <section class="branch-detail-section reveal">
+    <div>
+      <span>لماذا الرياض</span>
+      <h2>مساحة تليق بالفعاليات الكبرى والحضور الرفيع</h2>
+      <p>تجربة متوازنة بين الاتساع والفخامة، مع مسارات استقبال مرنة وخيارات إعداد تناسب الاجتماعات الرسمية، حفلات التكريم، الإطلاقات، واستقبال كبار العملاء.</p>
+    </div>
+    <div class="feature-list-modern">
+      <p>تنسيق استقبال وضيافة بطابع تنفيذي فاخر</p>
+      <p>مساحات مرنة للترتيبات الرسمية والمؤسسية</p>
+      <p>متابعة مباشرة لطلبات عروض الشركات</p>
+    </div>
+  </section>
+
+  <section class="branch-media-section reveal">
+    <div class="section-heading">
+      <span>تجربة الفرع</span>
+      <h2>أجواء مصممة لاجتماعات الشركات</h2>
+    </div>
+    <div class="media-showcase">
+      <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1400&auto=format&fit=crop" alt="تفاصيل ضيافة في قاعة الرياض">
+      <div>
+        <h3>مناسب لـ</h3>
+        <div class="tag-grid">
+          <span>اجتماعات تنفيذية</span>
+          <span>حفلات تكريم</span>
+          <span>إطلاق منتجات</span>
+          <span>استقبال وفود</span>
+          <span>ملتقيات داخلية</span>
+          <span>ورش عمل</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lead-section reveal" id="lead-form">
+    <div>
+      <span>طلب تواصل</span>
+      <h2>احجز معاينة أو اطلب تفاصيل فعالية شركتك</h2>
+      <p>اترك بياناتك، وسيقوم فريق فرع الرياض بالتواصل معك لمناقشة التاريخ، عدد الحضور، وطبيعة الفعالية والباقات المناسبة.</p>
+    </div>
+
+    <form class="lead-form-modern">
+      <label>الاسم الكامل<input name="name" type="text" required placeholder="اكتب الاسم هنا"></label>
+      <label>رقم الجوال<input name="phone" type="tel" required placeholder="اكتب رقم الجوال"></label>
+      <label>نوع الفعالية<select name="event" required><option value="">اختر نوع الفعالية</option><option>حفل شركة</option><option>حفل تكريم</option><option>إطلاق منتج</option><option>اجتماع رسمي</option><option>استقبال عملاء</option></select></label>
+      <label>الموعد المتوقع<input name="date" type="date"></label>
+      <label>عدد الحضور المتوقع<input name="guests" type="number" min="1" placeholder="مثال: 120"></label>
+      <label class="full">ملاحظاتك<textarea name="message" rows="4" placeholder="اذكر عدد الحضور أو متطلبات الضيافة والتجهيز"></textarea></label>
+      <button class="btn-primary form-submit" type="submit">إرسال الطلب</button>
+      <p class="form-note" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-brand">
+    <img src="assets/dar-alosrah-logo.png" alt="دار الأسرة">
+    <p>فرع الرياض لفعاليات الشركات، الاجتماعات التنفيذية، وحفلات التكريم.</p>
+  </div>
+
+  <div class="footer-links">
+    <h3>روابط سريعة</h3>
+    <a href="index.html">الرئيسية</a>
+    <a href="riyadh.html">فرع الرياض</a>
+    <a href="khobar.html">فرع الخبر</a>
+    <a href="#lead-form">تواصل</a>
+  </div>
+
+  <div class="footer-social">
+    <h3>تابعونا</h3>
+    <div class="social-links" aria-label="روابط التواصل الاجتماعي">
+      <a href="#" aria-label="Instagram">IG</a>
+      <a href="#" aria-label="X">X</a>
+      <a href="#" aria-label="TikTok">TT</a>
+      <a href="#" aria-label="LinkedIn">IN</a>
+    </div>
+  </div>
+
+  <div class="footer-contact">
+    <h3>بيانات التواصل</h3>
+    <a href="mailto:info@daralosrah.com">info@daralosrah.com</a>
+    <a href="tel:+966500000000">+966 50 000 0000</a>
+    <a href="tel:+966550000000">+966 55 000 0000</a>
+  </div>
+
+  <div class="footer-bottom">
+    <span>دار الأسرة</span>
+    <span>جميع الحقوق محفوظة</span>
+  </div>
+</footer>
+
+<a href="#" class="whatsapp" aria-label="التواصل عبر واتساب">واتساب</a>
+
+<script src="assets/page.js"></script>
+</body>
+</html>
