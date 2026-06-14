@@ -1026,6 +1026,12 @@ a{
   transition:color .25s ease, transform .25s ease;
 }
 
+.footer-contact a[href^="tel:"]{
+  direction:ltr;
+  unicode-bidi:isolate;
+  text-align:left;
+}
+
 .footer-links a:hover,
 .footer-contact a:hover{
   color:white;
