@@ -344,6 +344,9 @@ a{
 .experience-video{
   padding:0 6% 128px;
   background:var(--sand);
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:24px;
 }
 
 .video-frame{
@@ -1171,6 +1174,7 @@ a{
   .experience-video{
     padding-left:24px;
     padding-right:24px;
+    grid-template-columns:1fr;
   }
 
   .branch-grid,
