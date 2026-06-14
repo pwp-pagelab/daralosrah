@@ -602,7 +602,7 @@ a{
   padding:140px 6% 70px;
   background:
     linear-gradient(rgba(255,248,235,.88), rgba(255,248,235,.96)),
-    url('gallery-ceremony.jpg') center/cover;
+    url('gallery-ceremony.jpg?v=kh-lounge') center/cover;
 }
 
 .gallery-page-section{
