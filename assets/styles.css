@@ -1027,10 +1027,21 @@ a{
 }
 
 .footer-contact a[href^="tel:"]{
-  display:flex;
+  display:grid;
+  grid-template-columns:58px max-content;
   align-items:center;
-  gap:8px;
+  column-gap:10px;
   direction:rtl;
+}
+
+.footer-contact a[href^="tel:"] span{
+  text-align:right;
+}
+
+.footer-contact a[href^="tel:"] bdi{
+  direction:ltr;
+  text-align:left;
+  font-variant-numeric:tabular-nums;
 }
 
 .footer-links a:hover,
