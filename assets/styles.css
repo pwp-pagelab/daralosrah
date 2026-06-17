@@ -671,7 +671,7 @@ a{
   z-index:999;
   min-height:56px;
   padding:0 24px;
-  display:flex;
+  display:none;
   align-items:center;
   justify-content:center;
   background:var(--ink);
